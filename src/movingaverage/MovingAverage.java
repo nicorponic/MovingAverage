@@ -26,7 +26,7 @@ public class MovingAverage {
 
     public double getAvg() {
         if (window.isEmpty()) {
-            return 0; // technically the average is undefined
+            return 0;
         }
         return sum / window.size();
     }
